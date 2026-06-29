@@ -1,0 +1,36 @@
+Important Terminal Commands
+
+uv python install version ➡️ to install any python version
+uv python pin version ➡️ to pin any particular python version
+uv run python ➡️ activates the python interpreter
+uv run python file_name.py ➡️ executes file_name.py
+uv venv ➡️ creates a virtual environment directory
+source ./venv/bin/activate ➡️ activates the virtual environment
+cd folder_name ➡️ redirects to the respective folder
+mkdir folder_name ➡️ creates a new folder
+touch file_name.extension ➡️ creates a new file
+nano file_name.extension ➡️ creates and opens a new file
+cd .. ➡️ takes you one step back from the current folder
+pwd ➡️ prints the name of the current directory
+ls ➡️ lists all the files and folders present within the current directory
+
+
+Important GitHub Commands
+
+# 1. Initialize a local Git repository in this folder
+git init
+
+# 2. Add all your files to the staging area (Git will automatically respect your .gitignore)
+git add .
+
+# 3. Commit the files with an initial message
+git commit -m "Initial commit: Bootcamp project structure setup"
+
+# 4. Ensure your default branch is named 'main'
+git branch -M main
+
+# 5. Link your local repository to the remote GitHub repository (Paste your URL)
+git remote add origin https://github.com/your-username/repository-name.git
+
+# 6. Push your files to GitHub
+git push -u origin main

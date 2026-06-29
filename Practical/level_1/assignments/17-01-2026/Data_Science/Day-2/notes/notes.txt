@@ -1,0 +1,61 @@
+Creating Folders and Files and navigating through them via terminal in MAC OS
+
+Below are the steps:
+
+Step 1: Using cd command (change directory) navigated to the level_1 folder under the Practical folder
+~/Practical % cd level_1
+
+Step 2: Using mkdir command created a new folder or directory named assignments under the level_1 folder
+~/level_1 % mkdir assignments
+
+Step 3: Using cd command navigated to the assignments folder under the level_1 folder
+~/level_1 % cd assignments
+
+Step 4: Using mkdir command created a new folder named 17-01-2026 under the assignments folder
+~/assignments % mkdir 17-01-2026
+
+Step 5: Using cd command navigated to the 17-01-2026 folder under the assignments folder
+~/assignments % cd 17-01-2026
+
+Step 6: Using mkdir command created a new folder named Data_Science under the 17-01-2026 folder
+~/17-01-2026 % mkdir Data_Science
+
+Step 7: Using cd command navigated to the Data_Science folder under the 17-01-2026 folder
+~/17-01-2026 % cd Data_Science
+
+Step 8: Using mkdir command created a new folder named Day-1 under the Data_Science folder
+~/Data_Science % mkdir Day-1
+
+Step 9: Using cd command navigated to the Day-1 folder under the Data_Science folder
+~/Data_Science % cd Day-1
+
+Step 10: Using touch command created a new text file named day_1 under the Day-1 folder
+~/Day-1 % touch day_1.txt
+
+Step 11: Using cd .. command going one step back from the folder Day-1 which directs to Data_Science folder
+~/Day-1 % cd ..
+
+Step 12: Using mkdir command created a new folder named Day-2 under the Data_Science folder
+~/Data_Science % mkdir Day-2
+
+Step 13: Using cd command navigated to the Day-2 folder under the Data_Science folder
+~/Data_Science % cd Day-2
+
+Step 14: Using mkdir command created new folders named 'lectures' and 'notes' under the day-2 folder
+~/Day-2 % mkdir lectures
+~/Day-2 % mkdir notes
+
+Step 15: Using cd command navigated to the lectures folder under the Day-2 folder
+~/Day-2 % cd lectures
+
+Step 16: Using touch command created a new notebook file named day_2 under the lectures folder
+~/lectures % touch day_2.ipynb
+
+Step 17: Using cd .. command going one step back from the folder lectures which directs to Day-2 folder
+~/lectures % cd ..
+
+Step 18: Using cd command navigated to the notes folder under the Day-2 folder
+~/Day-2 % cd notes
+
+Step 19: Using touch command created a new text file named notes under the notes folder
+~/notes % touch notes.txt
