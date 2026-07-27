@@ -1,0 +1,26 @@
+Problem Statement:
+
+Create a Payment Processing System for a Store and and follow OOPs.
+
+- The system should enable store to add cash (online) in their system using Credit Card or UPI
+- The system should also have functionality to refund to customers
+- The system should have functionality to show balance
+- The system should have functionality to check history
+
+
+Terminal: uv run python main.py
+Welcome to Payment System:
+Press 1 for Add cash to the system
+Press 2 to refund the money
+Press 3 check balance
+Press 4 to check the transaction history
+Press 5 to exit the system
+
+
+if user press 1: Want to use Credit Card or UPI: 1 for C, 2 for UPI
+if user press 2: Enter amount to refund: subtract the amount from the system credit
+if user press 3:
+if user press 4: Show the transaction history but with good format in terminal
+
+
+The code should be robust, running in while loop, should handle user input and type-casting, should have exception handling + All OOPs concept + modules and package creation (optional)
