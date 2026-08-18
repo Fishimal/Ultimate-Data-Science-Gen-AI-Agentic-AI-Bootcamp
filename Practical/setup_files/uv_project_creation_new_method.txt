@@ -1,0 +1,9 @@
+- Base Setup
+uv init --python 3.14 level_2
+cd level_2
+uv sync
+uv add ipykernel
+uv add pandas numpy matplotlib seaborn
+
+- Optional
+uv run python -m ipykernel install --user --name=level_2 --display-name "Python (UV Level)
