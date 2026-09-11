@@ -1,0 +1,12 @@
+Problem Statement:
+
+- Download below csv using python
+     - 'https://raw.githubusercontent.com/datasciencedojo/datasets/refs/heads/master/titanic.csv'
+
+- Create a class
+
+- Create an object of that class and call the obj.download(URL, path_to_download='data')
+
+- You are not supposed to use pandas or numpy
+    
+- Only use Python and libraries like request or other url based libraries
